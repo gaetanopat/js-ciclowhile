@@ -1,0 +1,24 @@
+body{
+  box-sizing: border-box;
+  padding:0;
+  background-color: #d1d3d6;
+  height:100vh;
+  text-align: center;
+}
+/* per il titolo */
+h1{
+  font-weight: bold;
+}
+/* per le scritte Array non ordinato, Array ordinato e Array invariato */
+#not_ordered, #ordered, #no_change{
+  font-weight: bold;
+}
+/* per lasciare un margine bottom */
+#not_ordered, #no_change, #ordered, #ordered_array, #not_ordered_array, #initial_position, #final_position{
+  margin-bottom:10px;
+}
+/* per le scritte Posizione iniziale e finale nuovo cognome inserito */
+#initial_position, #final_position{
+  font-style: italic;
+  color:#33475b;
+}
